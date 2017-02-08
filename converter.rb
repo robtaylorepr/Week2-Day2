@@ -1,9 +1,9 @@
-# A class to convert units of measurement
+# A class to convert units of measurement\
+
 # To use: Converter.new(32).f_to_c == 0
 class Converter
 
   attr_accessor :number
-
   def initialize(number)
     @number = number
   end
